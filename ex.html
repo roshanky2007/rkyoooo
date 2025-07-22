@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Math Functions</title>
+</head>
+<body>
+
+  <h2>Math Functions</h2>
+  <button onclick="showMath()">Show Math Results</button>
+  <p id="mathResult"></p>
+
+  <script>
+    function showMath() {
+      let random = Math.random();            // Random number (0–1)
+      let rounded = Math.round(4.6);         // 5
+      let power = Math.pow(2, 3);            // 8
+      let squareRoot = Math.sqrt(49);        // 7
+
+      let result = `
+        Random: ${random.toFixed(2)}<br>
+        Rounded 4.6: ${rounded}<br>
+        2^3: ${power}<br>
+        √49: ${squareRoot}
+      `;
+      document.getElementById("mathResult").innerHTML = result;
+    }
+  </script>
+
+</body>
+</html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Math Functions</title>
+</head>
+<body>
+
+  <h2>Math Functions</h2>
+  <button onclick="showMath()">Show Math Results</button>
+  <p id="mathResult"></p>
+
+  <script>
+    function showMath() {
+      let random = Math.random();            // Random number (0–1)
+      let rounded = Math.round(4.6);         // 5
+      let power = Math.pow(2, 3);            // 8
+      let squareRoot = Math.sqrt(49);        // 7
+
+      let result = `
+        Random: ${random.toFixed(2)}<br>
+        Rounded 4.6: ${rounded}<br>
+        2^3: ${power}<br>
+        √49: ${squareRoot}
+      `;
+      document.getElementById("mathResult").innerHTML = result;
+    }
+  </script>
+
+</body>
+</html>
